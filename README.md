@@ -16,9 +16,9 @@ This is a simple bash script that updates a Cloudflare A record with the current
 5. Add a cron job to run the script periodically. For example, you can run the script every 5 minutes with the following crontab entry:
 
 ## Deploy this as a crontab
-
+```bash
 */5 * * * * /path/to/update-cloudflare-a-record.sh
-
+```
 
 ## Configuration
 
@@ -34,7 +34,9 @@ The following variables in the `update-cloudflare-a-record.sh` script should be 
 
 This script is licensed under the MIT License. See the `LICENSE` file for more information.
 
+<br/>
 
+---
 
 # Internet Bandwidth Measurement
 
@@ -44,17 +46,18 @@ This repository contains a Bash script for measuring internet bandwidth using `s
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/internet-bandwidth-measurement.git
-   cd internet-bandwidth-measurement
+```bash
+git clone https://github.com/Paul1404/bash-scripts.git
+cd internet-bandwidth-measurement
+```
 
 2. Make the Bash script executable:
 
 ```bash
-chmod +x bandwidth_test.sh ```
+chmod +x bandwidth_test.sh
+```
 
 3. Run the script
-
 ```bash
 ./bandwidth_test.sh
 ```
